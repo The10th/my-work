@@ -8,7 +8,7 @@
 }        
 
 @font-face{
- font-family: 'maasaki';
+ font-family: 'masaaki';
  src: url('../font/masaaki.otf'); 
 }
 @font-face{
@@ -55,7 +55,7 @@ a {
 }
 
 .jumbotron {
-    font-family:'maasaki';
+    font-family:'masaaki';
     text-shadow: 2px 2px white;
     text-align: center;
 }
