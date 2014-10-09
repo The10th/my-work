@@ -1,0 +1,402 @@
+@font-face {  
+    font-family: 'scratch';  
+    src: url('../font/scratch.ttf');
+} 
+@font-face {  
+    font-family: 'atarian';  
+    src: url('../font/atarian.ttf');
+}        
+
+@font-face{
+   font-family: 'maasaki';
+   src: url('../font/masaaki.otf'); 
+}
+@font-face{
+   font-family: 'stjedise';
+   src: url('../font/stjedise.ttf'); 
+}
+@font-face{
+   font-family: 'note';
+   src: url('../font/note.ttf'); 
+}
+@font-face{
+   font-family: 'goodbye';
+   src: url('../font/goodbye.ttf'); 
+}
+
+html,body { 
+
+    font-family: Helvetica, Arial, sans-serif;    
+    width:100%;     
+    height:100%;  
+}
+
+::selection{
+    background: #98FFB2;
+}
+::-moz-selection{
+    background: #98FFB2;
+}
+::-msie-selection{
+    background: #98FFB2;
+}
+::-o-selection{
+    background: #98FFB2;
+}
+
+.jumbotron {
+    font-family:'maasaki';
+    text-shadow: 2px 2px white;
+    text-align: center;
+}
+.title {
+    color:white;
+    font-family: 'scratch'; 
+    font-size: 25px;
+    font-weight: lighter;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 0;
+    letter-spacing: 4px;
+}
+.quote {
+    color:lightgrey;
+    opacity:.20;
+    font-family: 'scratch'; 
+    font-size: 25px;
+    font-weight: lighter;
+    position: fixed;
+    height: 414px;
+    width: 63%;
+    text-align: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 0;
+    letter-spacing: 4px;
+}
+#qtes{
+    height:1px;
+    width:160%;
+    top:85px;
+}
+.contents{
+    color:white;
+    font-family:'atarian'; 
+    font-size: 23px;
+    text-shadow: 2px 2px black;
+    position: relative;
+    height: 125px;
+    width: 50%;
+    text-align: left;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 0;
+    letter-spacing: 4px;
+}
+#cts2{
+    width:100%;
+    margin-top: 2em;
+    font-weight: bold; 
+    font-family: 'goodbye';
+    text-shadow: 2px 2px darkgray;
+    color:#4485AB;
+} 
+#static{
+    color:#C33B23;
+    font-family: 'note';
+    font-size: 45px;
+}
+
+h1>span.large {
+
+    font-size: 90px;
+}
+
+.slide {
+    background-attachment: fixed;
+    width:100%;
+    height:100%;
+    position: relative;
+    box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+span{
+    color:aquamarine;
+}
+#foots {
+    position: absolute;
+    color:#3B3B3B;
+    font-family:'stjedise';
+    font-size: 40px;
+    height: 155px;
+    width: 100%;
+    text-align: center;
+    top: 1;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 0;
+}
+.wrapper{
+    width:960px;
+    height:15px;
+    margin:0 auto;
+    position:relative;
+}
+#mid {
+    -webkit-transform: translate(0, 3%);
+    left:3%;
+}   
+
+ul{
+
+    text-align: center;
+    list-style-type: none;
+    padding-right: 0;
+}
+
+.bro {
+    margin-top: 150px;
+}
+.col-md-3{
+    border:2px solid #30AED3;
+    text-align: center;
+    word-wrap:break-word;
+}
+
+.secla{
+    border:1px solid #aaa;
+    height: 332px;
+    overflow-y: scroll; 
+}
+textarea {
+    resize:none;
+}
+
+ol{
+    vertical-align: bottom;
+}
+.secbox{
+    height:110px;
+    width:258px;
+    overflow-y: scroll; 
+
+}
+
+/************Experience divs for slide 3******************/
+.meat {
+    position: fixed;
+    top: 330em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+/******************************
+ SLIDE 1 
+ *******************************/
+ #slide1{
+    background-image:url(../images/slide1/bg1.jpg);
+    background-position:center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+/******************************
+ SLIDE 2 
+ *******************************/
+ #slide2 {
+    background-image:url(../images/slide2/bg2.jpg);
+    background-position:center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slide2 img:first-child{
+    position:absolute;
+    top: 700px;
+    left: -150px;
+}
+#slide2 img:nth-child(2){
+    position:absolute;
+    top:750px;
+    left:-50px;
+}
+#slide2 img:nth-child(3){
+    position:absolute;
+    top:600px;
+    left:300px;
+}
+#slide2 img:nth-child(4){
+    position:absolute;
+    top:400px;
+    left:300px;
+}
+#slide2 img:nth-child(5){
+    position:absolute;
+    top:148px;
+    right:755px;
+}
+
+
+/******************************
+ SLIDE 3
+ *******************************/
+ #slide3{
+    background-image:url(../images/slide3/bg31.jpg);
+    background-attachment: fixed;
+    background-position:center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+.works {
+    color:aquamarine;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    display: inline-block;
+    position:relative;
+    height:360px;
+    width:604px;
+    margin:0 auto;
+    background-attachment: fixed;
+}
+
+
+
+#html{
+    top:3em;
+    left:45%;
+}
+.imgs {
+
+    display:inline-block;
+}
+.text {
+    display: inline-block;
+    margin-left: -35em;
+    width: 52em;
+
+}
+
+/*lube*/
+#slide3 img:first-child{
+    position:absolute;
+    top: 55em;
+    left: -25em;
+    background-attachment: fixed;
+}
+
+/****************************** SLIDE 4 *******************************/ 
+ #slide4{
+    
+    background-attachment: fixed;
+    background-position:center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+
+
+/****************************** SLIDE 5 *******************************/ 
+
+#slide5{
+
+    background-image:url(../images/slide4/bg4.png);
+    background-position:center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+img:hover { 
+
+    opacity:.7;
+
+}
+
+#resume {
+    font-size: 20px;
+    font-family:'stjedise';
+}
+
+/*MODAL*/
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 40%;
+    position: relative;
+    margin: 1% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { 
+    background: #00d9ff; 
+}
+
+.list {
+    text-align: left;
+    list-style-type:circle
+}
+
