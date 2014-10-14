@@ -131,6 +131,10 @@ h1>span.large {
 
     font-size: 90px;
 }
+h1>span.small {
+    opacity: .8;
+    font-size: 16px;
+}
 
 .slide {
     background-attachment: fixed;
@@ -322,6 +326,32 @@ ol{
     background-attachment: fixed;
 }
 
+#slide3 a:first-child{
+    position:absolute;
+    top: 0em;
+    left: -6em;
+    background-attachment: fixed;
+}
+
+#slide3 a:nth-child(2){
+    position:absolute;
+    top: 0.1em;
+    left: -2em;
+    background-attachment: fixed;
+}
+#slide3 a:nth-child(3){
+    position:absolute;
+    top: 0em;
+    left: 0em;
+    background-attachment: fixed;
+}
+#slide3 a:nth-child(4){
+    position:absolute;
+    top: 0em;
+    left: -6em;
+    background-attachment: fixed;
+}
+
 .works {
     color:aquamarine;
     text-shadow: 2px 2px black;
@@ -340,7 +370,7 @@ ol{
 }
 .imgs {
 
-    display:inline-block;
+    display: inline-block;
 }
 .text {
     display: inline-block;
@@ -387,7 +417,7 @@ ol{
 }
 img:hover { 
 
-    opacity:.7.5;
+    opacity:.7;
 
 }
 .end{
@@ -464,12 +494,6 @@ img:hover {
 .list {
     text-align: left;
     list-style-type:circle
-}
-iframe {
-    height: 50em;
-    width: 100%;
-    overflow-y: scroll; 
-
 }
 /****************************************/
             /*color click*/
