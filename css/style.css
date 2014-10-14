@@ -378,7 +378,8 @@ ol{
 
 #slide5{
 
-    background-image:url(../images/slide4/bg4.png);
+    /*background-image:url(../images/slide4/bg4.png);*/
+    background-color: #C3C2C1;
     background-position:center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
