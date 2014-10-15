@@ -262,6 +262,17 @@ ol{
     background-size: cover;
 
 }
+/*Mozilla specific CSS*/
+@-moz-document url-prefix() {
+
+    .quote {
+        top: -14em;
+    }
+
+    #qtes {
+        top: -23em;
+    }
+}
 /******************************
  SLIDE 2 
  *******************************/
@@ -388,7 +399,7 @@ ol{
 }
 img:hover { 
 
-    opacity:.7.5;
+    opacity:.7;
 
 }
 .end{
