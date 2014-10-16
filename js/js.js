@@ -12,8 +12,11 @@ function random_color()
         }
 
 
-        $(document).ready(function(){
-
+ $(document).ready(function(){
+        
+        //initialize Stellar.js
+         $(window).stellar();
+        
         //color click logic
         $('#large_box').click(function(){
             $('#large_box').css('background-color',random_color()).children().css('background-color',random_color());
@@ -30,17 +33,12 @@ function random_color()
             $('#large_box').css('background-color',random_color());
         });
 
-          //initialize Stellar.js
-          $(window).stellar();
-
-          var box = $('.secla').scrollTop();
-          var inside = $('.secla').innerHeight();
-          var count = 0;
-          var divs = 0;
-          console.log(inside)
+         var inside = $('.secla').innerHeight();
+        var count = 0;
+        var divs = 0;
 
 
-          function maxLength(el) {    
+        function maxLength(el) {    
             if (!('maxLength' in el)) {
                 var max = el.attributes.maxLength.value;
                 el.keyup = function () {
@@ -59,7 +57,7 @@ function random_color()
         }
 
         $(secs).click(function(){
-
+            
             function calculateLIsInRow() {
 
 
@@ -95,36 +93,41 @@ function random_color()
             return false;
         })
 
-    $('.secla').scroll(function(){
+        $('.secla').scroll(function(){
 
             //109 is $('.secla').height()
-            if ($('.secla').scrollTop() + 280  >= $('.secla').innerHeight()){
-
-                $('.fussy:last-child').fadeOut(500, function(){
-                    $(this).remove();
-                    $('#fus').append("<div class='col large 3 fussy'></div>")
-                });
-            }
-
+            $('.secla').scrollTop() >= $('.secla').height()+100;
+            $('.fussy:first-child').fadeOut(500, function(){
+                $(this).remove();
+                // $('#ro').attr('id', 'fus')
+                // $('.rossy').attr('class','fussy')
+                $('#fus').append("<div class='col large 3 fussy'></div>")
+                // divs - 4;
+                // $('#ro').attr('id', 'fus');
+                // console.log(divs)
+            });
 
         });
 
-    $('#secrets').on('click' , function() {
-        if( $.trim($('#texs').val()).length > 0 ){
-            $('#secs').prop('disabled', false);
-        }
-        else {
-            $('#secs').prop('disabled', true);
-        }
 
-    });
+        $('#secrets').on('click' , function() {
+            if( $.trim($('#texs').val()).length > 0 ){
+                $('#secs').prop('disabled', false);
+            }
+            else {
+                $('#secs').prop('disabled', true);
+            }
 
-    updateCountdown();
-    $('#texs').change(updateCountdown);
-    $('#texs').keyup(updateCountdown);
+        });
 
+        updateCountdown();
+        $('#texs').change(updateCountdown);
+        $('#texs').keyup(updateCountdown);
+
+
+        $('#refresh').click(function() {
+            location.reload();
+        });
 });
 
-    $('#refresh').click(function() {
-        location.reload();
-    });
+    

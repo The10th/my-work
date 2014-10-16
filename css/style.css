@@ -77,7 +77,7 @@ a {
 }
 .quote {
     color:lightgrey;
-    opacity:.40;
+    opacity:.80;
     font-family: 'scratch'; 
     font-size: 25px;
     font-weight: lighter;
@@ -150,7 +150,7 @@ span{
     height: 155px;
     width: 100%;
     text-align: center;
-    top: 1;
+    top: 77%;
     right: 0;
     bottom: 0;
     left: 0;
@@ -262,8 +262,11 @@ ol{
     background-size: cover;
 
 }
-/*Mozilla specific CSS*/
+/***************************************/
+/************ MOZILLA CSS *************/
+/**************************************/
 @-moz-document url-prefix() {
+
 
     .quote {
         top: -14em;
@@ -272,6 +275,19 @@ ol{
     #qtes {
         top: -23em;
     }
+    #blog{
+        left: -38em !important;
+    }
+    #freebsd{
+        left: 36em !important;
+    }
+     #lube{
+        left: -16em !important;
+    }
+     #words{
+        left: 12em !important;
+    }
+
 }
 /******************************
  SLIDE 2 
@@ -507,6 +523,13 @@ iframe {
 }
 
 /*size and scaling*/
+@media screen and (max-width:1600px){
+    
+    #slide3 img:first-child{
+
+        left: -31em;
+    }
+}
 
 
 @media screen and (max-width:1190px){
@@ -520,14 +543,7 @@ iframe {
         left:-35em !important;
     }
 }
-@media screen and (max-width:1600px){
-    
-    #slide3 img:first-child{
 
-        left: -30em;
-     }
-    
-}
 @media screen and (min-width:1280px) and (max-width: 1366px){
     
     #slide3 img:first-child{
@@ -620,8 +636,9 @@ iframe {
         height:40%;
         width:20%;
     }
-    #foots{
-        top:50%;
+
+    #html{
+        width:55%;
     }
 }
 @media screen and (max-width: 768px){
@@ -705,10 +722,12 @@ iframe {
     .contents{
         font-size: 20px;
         width:95%;
+        height:25%;
     }
     #cts2{
         left:25%;
-        width:55%;
+        width:75%;
+        height: 30%;
     }
      /*red invader*/
     #slide2 img:first-child{
