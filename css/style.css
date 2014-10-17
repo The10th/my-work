@@ -523,6 +523,23 @@ iframe {
 }
 
 /*size and scaling*/
+
+@media screen and (max-width:1440px){
+    
+    #freebsd{
+        left: 85% !important;
+    }
+     #lube{
+        left: -45% !important;
+    }
+     #words{    
+        left: 35% !important;
+    }
+    #blog{
+        left: -95% !important;
+    }
+}
+
 @media screen and (max-width:1600px){
     
     #slide3 img:first-child{
