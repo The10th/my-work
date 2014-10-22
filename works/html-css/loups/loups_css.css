@@ -2,6 +2,7 @@ body {
 	background-image:url(../workswall.jpg);
 }
 #wrapper{
+	margin-left: 20%;
 	font-family: times;
 	background-color: #EEEEEE;
 	width: 940px;

@@ -1,7 +1,4 @@
-@font-face{
-	font-family:scratch;
-	src:url(../font/scratch.ttf)
-}
+@font-face{font-family:scratch;src:url(../font/scratch.ttf)}
 
 @font-face{font-family:atarian;src:url(../font/atarian.ttf)}
 
@@ -169,11 +166,12 @@ ol {
 }
 .secbox {
     color: #fff;
-    height: 110px;
-    width: 258px;
+    height: 10em;
+    width: 20% !important;
     overflow-y: scroll;
     background-color: #1D1D1D;
-    padding-top: .5em
+    padding-top: .5em;
+    margin:1em 1em 1em 3em;
 }
 .countdown {
     color: #fff;
@@ -278,7 +276,7 @@ ol {
 }
 #slide3 img:first-child {
     position: absolute;
-    top: 55em;
+    top: 60em;
     left: -50%;
     background-attachment: fixed
 }
@@ -356,11 +354,7 @@ img:hover {
     font-family: stjedise;
     height: 10em
 }
-#resume {
-    color: #003265;
-    font-size: 15px;
-    font-family: stjedise
-}
+
 .modalDialog {
     font-size: 35%;
     position: fixed;
@@ -382,7 +376,8 @@ img:hover {
     pointer-events: auto
 }
 .modalDialog>div {
-    width: 40%;
+    width: 0;
+    height:0;
     position: relative;
     margin: 1% auto;
     padding: 5px 20px 13px;
@@ -418,8 +413,8 @@ img:hover {
     list-style-type: circle
 }
 iframe {
-    height: 50em;
-    width: 100%;
+    height: 90%;
+    width: 95%;
     overflow-y: scroll
 }
 #large_box {

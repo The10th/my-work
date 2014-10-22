@@ -7,6 +7,7 @@ body {
 }
 
 #container{
+	margin-left: 15%;
 	background-color: white;
 	width: 999px;
 	min-height: 730px;
@@ -1064,7 +1065,7 @@ h6{
 	-moz-transition: opacity 400ms ease-in;
 	transition: opacity 400ms ease-in;
 	pointer-events: none;
-	overflow-y:scroll; 
+	overflow-x:scroll; 
 }
 .modalDialog:target {
 	opacity:1;
@@ -1072,7 +1073,7 @@ h6{
 }
 
 .modalDialog > div {
-	width: 90%;
+	width: 70%;
 	height:100%;
 	position: relative;
 	margin: 1% auto;

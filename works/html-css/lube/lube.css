@@ -6,6 +6,7 @@ body {
 	background-image:url(../workswall.jpg);
 }
 #container{
+	margin-left: 15%;
 	width: 997px;
 	min-height: 700px;
 	font-family: arial;

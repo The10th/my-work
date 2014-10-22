@@ -30,6 +30,7 @@ a:visited{
 	position: absolute;
 }
 #container{
+	margin-left: 15%;
 	background-color: white;
 	width: 863px;	
 	height: 100%;
