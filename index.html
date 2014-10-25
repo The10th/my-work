@@ -44,10 +44,12 @@
 			<img src="images/slide2/si3.png" data-stellar-ratio="1.8" data-stellar-vertical-offset="-53" alt="" style="display: block; left: 420px; top: 5px;" height='100' width='100'>
 			<img src="images/slide2/si4.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-25" alt="" style="display: block; left: 350px; top: 150px;" height='100' width='100'>
 		</div>
-		<div class='jumbotron'>
+		
+		<div class='me'>
 			
-			<h1>About Me</h1><br>
+			<h1>About Me</h1>
 		</div>
+		<br>
 		<div align='center'>
 			<p class='contents'>Hello there! My name is Julian Nguyen, and I've recently graduated from the Coding Dojo, a dev bootcamp in Mountain View. During my time at the Coding Dojo I've learned quite a bit, including:
 				<ul style="list-style-type:disc" id='mid' class='contents'>
@@ -73,39 +75,63 @@
 
 	<div class='slide' id='slide3'>
 
-		<div class='works row' id='html'>
+		<div class="jumbotron">
 
-			<div class='text'>
-				<h1  id='static'>static site duplication</h1>
-				<p class='contents' id='cts2'>Pixel perfect comp (comprehensive layouts) production was one of my favorite projects to work on while being a student. Being able to develop a functional website from a wireframe/mockup/screenshot was extremely rewarding to me, and is a skill I still love constantly refining.
-					<br><br>	
-					Please click on these images to see my first 2-days of HTML and CSS. These projects strengthened my knowledge of markups and style sheets, as well stressed the importance of project wire-framing.</p>
-				</div>	
+	      <div class="container">
+		        <h1 align='center'>Static Site Duplication</h1>
+		        <p>Pixel perfect comp (comprehensive layouts) production was one of my favorite projects to work on while being a student. Being able to develop a functional website from a <span class='emph'>wireframe/mockup/screenshot</span> was extremely rewarding to me, and is a skill I still love constantly refining. Please click on the images to get a closer look!</p>
+	      </div>
 
-				<div class="imgs container">	
+	    </div>
+	    <br>
+	    <div class="container">
+	      <!-- Example row of columns -->
+	      <div class="row">
+	        <div class="col-md-3">
 
-					<!-- lube -->
-					<a href="works/html-css/lube/lube.html" target="_blank">
-						<img href='works/html-css/lube/lube.html'id='lube' src="images/lube.png" height="210" width="210" data-stellar-ratio="1.4" data-stellar-vertical-offset='765' data-stellar-horizontal-offset='0'>
-					</a>
-					<!-- words -->
-					<a href="works/html-css/words/word.html" target="_blank">
-						<img id='words' src="images/words.jpg" height="205" width="200" data-stellar-ratio="1.9" data-stellar-vertical-offset='365' data-stellar-horizontal-offset='0'>
-					</a>
-					<!-- freebsd -->
-					<a href="works/html-css/free/freebsd.html" target="_blank">
-						<img id='freebsd' src="images/freebsd.png" height="204" width="200" data-stellar-ratio="2.4" data-stellar-vertical-offset='250' data-stellar-horizontal-offset='0'>
-					</a>
-					<!-- loups -->
-					<a href="works/html-css/loups/loups.html" target="_blank">
-						<img id='blog' src="images/blog.png" height="200" width="200" data-stellar-ratio="1.8" data-stellar-vertical-offset='400' data-stellar-horizontal-offset='0'>
-					</a>
+	       <!-- lube -->
 
-				</div>		
-			</div>
+				<a href="works/html-css/loups/loups.html" target="_blank">
+				<img href='works/html-css/lube/lube.html' class="img-circle spindoc" id='blog' src="images/blog.png" height="150" width="150">
+				</a>
+
+	          <p><span class='emph'>Day 1</span> of my <span class='emph'>12 week</span> bootcamp, and I was given a .png screenshot of a simple mock blog site to reproduce. In 3 hours my classmates and I learned the very basics of HTML & CSS, then by the 6th hour of the first day I produced the above comp. Immediately after I completed the mock blog site, I started working on a bit more complicated of a screenshot to reproduce. </p>
+	        </div>
+
+			<div class="col-md-3">
+
+	        <!-- lube -->
+
+				<a href="works/html-css/free/freebsd.html" target="_blank">
+				<img href='works/html-css/free/freebsd.html' class="img-circle spindoc" id='freebsd' src="images/freebsd.png" height="150" width="150">
+				</a>
+
+	          <p> By hour <span class='emph'>8</span> of day <span class='emph'>1</span> I began to learn the subtleties and nuances of comp production. I liked taking a screenshot and making a coded version of it, at the same time I appreciated the work that went into the original design of the sites. As my work started getting more complex I started to see how cumbersome my code was becoming and started to work on <span class='emph'>concise/efficient</span> code. </p>
+	        </div>
+			<div class="col-md-3">
+
+	        <!-- lube -->
+
+				<a href="works/html-css/lube/lube.html" target="_blank">
+				<img href='works/html-css/lube/lube.html' class="img-circle spindoc" id='lube' src="images/lube.png" height="150" width="150">
+				</a>
+
+	          <p> After a long <span class='emph'>16 hour</span> first day, I went home and fell asleep with dreams of <span class='sublime'><span class='pink'>pink</span>, <span class='green'>green</span>, <span class='yellow'>yellow</span>, <span class='white'>white</span>, and <span class='blue'>blue</span></span> text against a dark gray screen. At the beginning of day 2 we were given  more complex screenshots to reproduce, of which I liked very much and it taught me how to use the interwebs as an immensely powerful resource for best practice tips and tricks.</p>
+	        </div>
+	        <div class="col-md-3">
+
+	          					<!-- lube -->
+
+				<a href="works/html-css/words/word.html" target="_blank">
+				<img href='works/html-css/words/word.html' class="img-circle spindoc" id='words' src="images/words.png" height="150" width="150">
+				</a>
+
+	          <p><span class='emph'>6 hours</span> into <span class='emph'>day 2</span> and I successfully completed two complex comp productions, and it felt great being able to take a picture of how a site should look, and reproduce it in code. More work came in the following weeks, and very little sleep, but this started my foundation and affinity towards front end development.</p>
+	        </div>
+	      </div>
+			
 		</div>
-
-	</div>
+	</div>	
 
 	<!-- ############################################### -->
 	<!-- end slide 3 -->
@@ -163,13 +189,17 @@
 			<h3>
 				Please check back as i am constantly adding new projects,
 				<br>
-				until then please enjoy these simple clickable color changing boxes
+				case in point? Check out my recently deployed web app: <span class='flash'>Flash'd</span> - an easy waitlist app for businesses
 			</h3>
 		</div>
-		<div align='center' id='large_box'>
+	<!-- 	<div align='center' id='large_box'>
 			<div class='side_box'></div>
 			<div class='middle_box'></div>
 			<div class='side_box'></div>
+		</div> -->
+		<div align='center'>
+			<a href="https://waitlist-dontblink.firebaseapp.com/#/" target='blank'><img class='moar img-rounded' src="images/txt.jpg" height=
+			'250' width='550'></a>
 		</div>
 		<div align='center' id='foots'>
 
