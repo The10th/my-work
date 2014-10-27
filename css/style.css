@@ -127,29 +127,33 @@ span {
     color: #4486F8;
 }
 .moar{
-    margin-top: 5% ;
+    margin-top: 7% ;
 }
 
 #foots {
     position: absolute;
-    color: #3B3B3B;
+    color: lightgray;
     font-family: stjedise;
     font-size: 40px;
     height: 155px;
     width: 100%;
     text-align: center;
-    top: 65%;
+    top: 69%;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto 0
 }
-.wrapper {
-    width: 960px;
-    height: 15px;
-    margin: 0 auto;
-    position: relative
+
+#foots h2 {
+    color:white !important;
 }
+
+.wrapper {
+
+    position: relative;
+}
+
 #mid {
     top: .5em;
     -webkit-transform: translate(0, 3%);
@@ -259,31 +263,25 @@ ol {
     -o-background-size: cover;
     background-size: cover
 }
-#slide2 img:first-child {
+
+#slide2 img{
     position: absolute;
-    top: 700px;
-    left: -150px
 }
+/*#slide2 img:first-child {
+
+}
+
+
 #slide2 img:nth-child(2) {
-    position: absolute;
-    top: 750px;
-    left: -50px
+
 }
 #slide2 img:nth-child(3) {
-    position: absolute;
-    top: 600px;
-    left: 300px
+
 }
 #slide2 img:nth-child(4) {
-    position: absolute;
-    top: 400px;
-    left: 300px
-}
-#slide2 img:nth-child(5) {
-    position: absolute;
-    top: 148px;
-    right: 755px
-}
+
+}*/
+
 .row{
     margin-top: 3% !important;
 }
@@ -373,7 +371,7 @@ ol {
     background-size: cover
 }
 .bout {
-    color: #fff;
+    color: yellow;
     position: relative;
     font-weight: bolder;
     height: 0;
@@ -386,7 +384,7 @@ ol {
     margin: auto 0
 }
 #slide5 {
-    background-color: #C3C2C1;
+    background-image: url(../images/slide5/bk1.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -397,10 +395,19 @@ img:hover {
     opacity: .7
 }
 .end {
+    padding-top: 2%;
     text-shadow: 1px 1px #fff;
     color: #32BA9A;
     font-family: stjedise;
     height: 10em
+}
+
+.end h3{
+
+    text-shadow:none;
+    font-family: arial;
+    color:lightgray;
+
 }
 
 .modalDialog {
@@ -478,5 +485,14 @@ iframe {
     width: 30%;
     height: 40%;
     margin: 60px 20px
+}
+
+/*mozilla specific css*/
+
+@-moz-document url-prefix() {
+    
+    #secrets{
+        margin-left: 44%;
+    }
 }
 
