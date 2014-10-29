@@ -823,7 +823,7 @@ iframe {
     }
 
 }
-@media (min-width:800px) and (max-width: 844px) {
+@media (min-width:796px) and (max-width: 844px) {
 
         .large{
         font-size: 75px !important;
@@ -843,7 +843,7 @@ iframe {
         opacity: .4 !important;
     }
     .bi, .wi{
-        margin-left: -52%;
+        margin-left: -55%;
     }
     .pi{
         margin-left: -35%;
@@ -901,12 +901,99 @@ iframe {
         width: 200px;
     }
     #slide5{
-        height:113%;
+        height:100%;
     }
     .footpic{
         
         width: 90px;
         height: 90px;
+    }
+
+}
+@media (min-width:600px) and (max-width: 795px) {
+
+        .large{
+        font-size: 75px !important;
+    }
+    .quote{
+        width:95%;
+        height: 65% !important;
+    }
+    #qtes{ 
+
+        font-size: 15px;
+        height: 5% !important;
+        width: 36%;
+
+    }
+    .pi, .ri, .gi{
+        opacity: .4 !important;
+    }
+    .bi, .wi{
+        display: none !important;
+    }
+    .pi{
+        margin-left: -35%;
+    }
+    .ri{
+        margin-left: -25%;
+    }
+    .slide3{
+        height:90%;
+    }
+
+    .jumbotron p{
+        font-size: 19px !important;
+    }
+
+    .contents{
+        font-size: 18px;
+    }
+
+    #mid{
+        top: 2.5em;
+        left: 9%;
+    }
+
+    #slide3{
+        height: 190% !important;
+    }
+    #slide3 .jumbotron{
+
+        height: 20%;
+    }
+    #slide3 img{
+        margin-left: 15%;
+        margin-bottom: 3%;
+    }
+    .bout{
+        display:none !important;
+    }
+    .secla{
+        width: 70% !important;
+    }
+    .secbox {
+        margin-left: 25%;
+        font-size: 12px;
+        width: 50% !important;
+        height: 50%;
+
+    }
+    .end h3{
+        font-size: 18px;
+    }
+    .moar {
+        margin-top: 20%;
+        height: 200px;
+        width: 200px;
+    }
+    #slide5{
+        height:100%;
+    }
+    .footpic{
+        
+        width: 65px;
+        height: 65px;
     }
 
 }
