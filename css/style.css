@@ -1074,7 +1074,7 @@ iframe {
 
     #slide4, #slide5{
 
-        height: 65%;
+        height: 75%;
     }
     .bout{
         display: none !important;
@@ -1088,11 +1088,14 @@ iframe {
     }
     #slide3 img{
         margin-left: 25%;
-        margin-bottom: 5%;
+        margin-bottom: 15%;
     }
         #slide3 .jumbotron{
 
         height: 10%;
+    }
+    .jumbotron p{
+        font-size: 23px !important;
     }
 
     .row p{
@@ -1112,11 +1115,24 @@ iframe {
         margin-top: 1%;
         margin-bottom: 7%;
     }
+    .hddr{
+        font-size: 30px;
+    }
+
+    textarea{
+        font-size: 35px !important;
+        height: 300px;
+        width: 560px;
+    }
+
 
     .secbox {
 
-        height: 55%;
+        height: 45%;
 
+    }
+    .countdown, #secs{
+        font-size: 30px;
     }
     .end h1{
         font-size: 65px;
@@ -1130,7 +1146,7 @@ iframe {
     }
 
     #foots{
-        margin-top: -68% !important;
+        margin-top: -48% !important;
     }
 
     #foots img{
