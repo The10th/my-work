@@ -90,7 +90,7 @@
     $('.secla').scroll(function(){
 
             //109 is $('.secla').height()
-            $('.secla').scrollTop() >= $('.secla').height()+100;
+            if ($('.secla').scrollTop() > $('.secla').height()-190) {
             $('.fussy:first-child').fadeOut(500, function(){
                 $(this).remove();
                 // $('#ro').attr('id', 'fus')
@@ -99,7 +99,7 @@
                 // divs - 4;
                 // $('#ro').attr('id', 'fus');
                 // console.log(divs)
-            });
+            })};
 
         });
 
@@ -143,6 +143,7 @@
         'transform': 'rotate(' + ($body.scrollTop() / bodyHeight * -180) + 'deg)'
     });
 });
+
 });
 
     
